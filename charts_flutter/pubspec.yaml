@@ -16,7 +16,10 @@ dependencies:
   # The latest pub version is commented out and shown below as an example.
   #charts_common: 0.11.0
   charts_common:
-    path: ../charts_common/
+    git:
+      url: git://github.com/kemsys-mobile/charts.git
+      path: charts_common
+      ref: 3549a0e79be2072aaff358b823d66aa9ed4430f0
   collection: ^1.14.5
   flutter:
     sdk: flutter
